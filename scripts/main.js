@@ -13,4 +13,3 @@ changeUserButton.onclick = function() {
     userName.textContent = newUserName
     localStorage.setItem('user-name', newUserName)
 }
-
