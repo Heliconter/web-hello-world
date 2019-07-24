@@ -1,6 +1,3 @@
-var heading = document.querySelector('h1')
-heading.textContent += ' :)'
-
 var changeUserButton = document.querySelector('button')
 var userName = document.querySelector('#user-name')
 var storedUserName = localStorage.getItem('user-name')
