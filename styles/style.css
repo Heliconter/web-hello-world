@@ -9,7 +9,7 @@ body {
   padding: 0 20px 20px;
 }
 
-h1, p, li, a {
+h1, p, li, a, footer {
   color: #FAFAFA;
 }
 
@@ -32,7 +32,7 @@ img {
   width: 200px;
 }
 
-.footer {
+footer {
   font-size: 8px;
 }
 
