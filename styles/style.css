@@ -32,10 +32,21 @@ img {
   width: 200px;
 }
 
-button {
-  margin: 0 10px;
-}
-
 .footer {
   font-size: 8px;
+}
+
+button {
+  background-color: transparent; 
+  color: #FAFAFA;
+  border: 2px solid #FAFAFA;
+  padding: 8px 16px;
+  margin: 2px 10px;
+  border-radius: 2px;
+  transition-duration: 400ms; /* determines the speed of the hover effect */
+}
+
+button:hover {
+  background-color: #FAFAFA;
+  color: #212121;
 }
